@@ -6,7 +6,7 @@ function preload(){
 
 function setup(){
   checkSize();
-  alert("Willkommen beim Spieler Spiel.\r\nDrücke auf den Play-Button, um die Slots drehen bzw. stoppen zu lassen. Bei fünf gleichen Symbolen gewinnst du ein limitiertes Foto-Zine mit Bildern von Skinny Finsta, exklusiv geschossen und zusammengestellt von unserem Fotografen Joel Bittner. Schicke einfach ein Screenshot deines Gewinns an unsere E-Mail-Adresse: healthyego@icloud.com\r\n\Viel Glück!")
+  alert("Willkommen beim Spieler Spiel.\r\nDrücke auf den Play-Button, um die Slots drehen bzw. stoppen zu lassen. \r\n\Viel Glück!")
 
   gameWidth= windowWidth;
   gameHeigth= windowWidth/(16/9);
