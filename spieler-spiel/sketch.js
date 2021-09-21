@@ -128,7 +128,7 @@ function checkWin(){
     win=true;
   }
   if(win){
-    alert("Du hast gewonnen!! Sende uns eine Mail an healthyego@icloud.com mit einem Screenshot vom letzten Durchgang. Es wartet ein toller Gewinn auf dich!")
+    alert("Du hast gewonnen!")
   }else{
     alert("Pech gehabt! Versuch's nochmal.")
   }
