@@ -6,7 +6,7 @@ function preload(){
 
 function setup(){
   checkSize();
-  alert("Willkommen beim Spieler Spiel.\r\nDrücke auf den Play-Button, um die Slots drehen bzw. stoppen zu lassen. <a href="https://www.instagram.com/joelbittner/">@joelbittner</a> \r\n\Viel Glück!")
+  alert("Willkommen beim Spieler Spiel.\r\nDrücke auf den Play-Button, um die Slots drehen bzw. stoppen zu lassen. @joelbittner \r\n\Viel Glück!")
 
   gameWidth= windowWidth;
   gameHeigth= windowWidth/(16/9);
@@ -128,7 +128,7 @@ function checkWin(){
     win=true;
   }
   if(win){
-    alert("Du hast gewonnen! Für deinen Gewinn sende <a href="https://www.instagram.com/joelbittner/">@joelbittner</a> auf Instagram eine Direktnachricht mit einem Screenshot")
+    alert("Du hast gewonnen! Für deinen Gewinn sende @joelbittner eine Direktnachricht mit einem Screenshot auf Instagram.")
   }else{
     alert("Pech gehabt! Versuch's nochmal.")
   }
