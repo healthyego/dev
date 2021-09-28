@@ -6,7 +6,7 @@ function preload(){
 
 function setup(){
   checkSize();
-  alert("Willkommen beim Spieler Spiel.\r\nDrücke auf den Play-Button, um die Slots drehen bzw. stoppen zu lassen. @joelbittner \r\n\Viel Glück!")
+  alert("Willkommen beim Spieler Spiel.\r\nDrücke auf den Play-Button, um die Slots drehen bzw. stoppen zu lassen.\r\n\Viel Glück!")
 
   gameWidth= windowWidth;
   gameHeigth= windowWidth/(16/9);
